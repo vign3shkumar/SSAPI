@@ -1,0 +1,21 @@
+{
+  "qa": {
+          "server":"http://172.16.3.181",
+          "api_path": "/api/v1/",
+          "install_progress": "device/installprogress",
+          "register":"device/register",
+          "clntstrtd": "device/clntstrd",
+          "getplcy": "device/getpolicy",
+          "pulse": "device/pulse",
+          "protchng": "device/protchng",
+          "get_task": "device/getask",
+          "sts_log": "device/statuslog",
+          "wlupld_info": "device/wlupldinfo",
+          "get_wldb": "device/getwldbinfo",
+          "login": "user/login",
+          "crt_task": "task/create",
+          "user": "administrator",
+          "pwd": "Test123$",
+          "repo": "WLRepo"
+  }
+}

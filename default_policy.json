@@ -1,0 +1,2227 @@
+{
+    "policy": {
+        "header": {
+            "force": 0
+        },
+        "scanner": {
+            "updtcmdarg": "-update"
+        },
+        "gnrl": {
+            "notifyusr": 0,
+            "alertusr": 0,
+            "showsystray": 1,
+            "usercanuninstall": 0
+        },
+        "devicectrl": {
+            "on": 0,
+            "ntfyonly": 0,
+            "msg": null,
+            "hwblock": [],
+            "hwallow": []
+        },
+        "execctrl": {
+            "$ovron$": 0,
+            "rules": [
+                {
+                    "path": "C:\\WINDOWS\\REGEDIT.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\REGEDIT.EXE",
+                    "event": "E",
+                    "user": "S-1-5-18",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\CSCRIPT.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\EVENTVWR.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\MMC.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\EXPLORER.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\MICROSOFT.NET\\*\\MSCORSVW.EXE",
+                    "event": "E",
+                    "user": "S-1-5-18",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\MICROSOFT.NET\\*\\NGEN.EXE",
+                    "event": "E",
+                    "user": "S-1-5-18",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\MICROSOFT.NET\\*\\NGENTASK.EXE",
+                    "event": "E",
+                    "user": "S-1-5-18",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SERVICING\\TRUSTEDINSTALLER.EXE",
+                    "event": "E",
+                    "user": "S-1-5-18",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\ALG.EXE",
+                    "event": "E",
+                    "user": "S-1-5-18",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\APPLICATIONFRAMEHOST.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\AUDIODG.EXE",
+                    "event": "E",
+                    "user": "S-1-5-18",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\AUDIODG.EXE",
+                    "event": "E",
+                    "user": "S-1-5-19",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\AUTOCHK.EXE",
+                    "event": "E",
+                    "user": "S-1-5-18",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\BACKGROUNDTASKHOST.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\BROWSER_BROKER.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\CLEANMGR.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\CONHOST.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\CSRSS.EXE",
+                    "event": "E",
+                    "user": "S-1-5-18",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\DEFRAG.EXE",
+                    "event": "E",
+                    "user": "S-1-5-18",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\DISKSNAPSHOT.EXE",
+                    "event": "E",
+                    "user": "S-1-5-18",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\DLLHOST.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\DMCLIENT.EXE",
+                    "event": "E",
+                    "user": "S-1-5-18",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\DWM.EXE",
+                    "event": "E",
+                    "user": "S-1-5-18",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\LOGONUI.EXE",
+                    "event": "E",
+                    "user": "S-1-5-18",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\LPREMOVE.EXE",
+                    "event": "E",
+                    "user": "S-1-5-18",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\LSASS.EXE",
+                    "event": "E",
+                    "user": "S-1-5-18",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\MOBSYNC.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\MSIEXEC.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\MUSNOTIFICATION.EXE",
+                    "event": "E",
+                    "user": "S-1-5-18",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\NTVDM.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\PING.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\RASERVER.EXE",
+                    "event": "E",
+                    "user": "S-1-5-18",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\RUNDLL32.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\RUNTIMEBROKER.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\SDIAGNHOST.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\SEARCHFILTERHOST.EXE",
+                    "event": "E",
+                    "user": "S-1-5-18",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\SEARCHPROTOCOLHOST.EXE",
+                    "event": "E",
+                    "user": "S-1-5-18",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\SECEDIT.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\SERVICES.EXE",
+                    "event": "E",
+                    "user": "S-1-5-18",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\SIHOST.EXE",
+                    "event": "E",
+                    "user": "S-1-5-18",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\SLUI.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\SMSS.EXE",
+                    "event": "E",
+                    "user": "S-1-5-18",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\SPOOLSV.EXE",
+                    "event": "E",
+                    "user": "S-1-5-18",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\SPPEXTCOMOBJ.EXE",
+                    "event": "E",
+                    "user": "S-1-5-20",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\SPPSVC.EXE",
+                    "event": "E",
+                    "user": "S-1-5-20",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\SRTASKS.EXE",
+                    "event": "E",
+                    "user": "S-1-5-18",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\SVCHOST.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\TASKHOSTW.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\TZSYNC.EXE",
+                    "event": "E",
+                    "user": "S-1-5-18",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\USERINIT.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\USOCLIENT.EXE",
+                    "event": "E",
+                    "user": "S-1-5-18",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\REGEDIT.EXE",
+                    "event": "E",
+                    "user": "S-1-5-18",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSWOW64\\REGEDIT.EXE",
+                    "event": "E",
+                    "user": "S-1-5-18",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\REGEDT32.EXE",
+                    "event": "E",
+                    "user": "S-1-5-18",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSWOW64\\REGEDT32.EXE",
+                    "event": "E",
+                    "user": "S-1-5-18",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\VERCLSID.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\VSSVC.EXE",
+                    "event": "E",
+                    "user": "S-1-5-18",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\W32TM.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\TASKMGR.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\CONSENT.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\WBEM\\WMIADAP.EXE",
+                    "event": "E",
+                    "user": "S-1-5-18",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\WBEM\\WMIPRVSE.EXE",
+                    "event": "E",
+                    "user": "S-1-5-18",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\WBEM\\WMIPRVSE.EXE",
+                    "event": "E",
+                    "user": "S-1-5-20",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\WERMGR.EXE",
+                    "event": "E",
+                    "user": "S-1-5-18",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\WININIT.EXE",
+                    "event": "E",
+                    "user": "S-1-5-18",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\LSM.EXE",
+                    "event": "E",
+                    "user": "S-1-5-18",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\WFS.EXE",
+                    "event": "E",
+                    "user": "S-1-5-18",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\REGSVR32.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\WUAPP.EXE",
+                    "event": "E",
+                    "user": "S-1-5-18",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\MSHTA.EXE",
+                    "event": "E",
+                    "user": "S-1-5-18",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\FXSSVC.EXE",
+                    "event": "E",
+                    "user": "S-1-5-18",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\MDSCHED.EXE",
+                    "event": "E",
+                    "user": "S-1-5-18",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\WINLOGON.EXE",
+                    "event": "E",
+                    "user": "S-1-5-18",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\WSCNTFY.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\WUAUCLT.EXE",
+                    "event": "E",
+                    "user": "S-1-5-18",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\IE4UINIT.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\NET.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\NET1.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\TASKHOST.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\DRVINST.EXE",
+                    "event": "E",
+                    "user": "S-1-5-18",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\DINOTIFY.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\CMD.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\CMD.EXE",
+                    "event": "a",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\CMD.EXE",
+                    "event": "A",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSWOW64\\RUNONCE.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSWOW64\\SECEDIT.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSWOW64\\CMD.EXE",
+                    "event": "E",
+                    "user": "S-1-5-18",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\WINSXS\\*\\TIWORKER.EXE",
+                    "event": "E",
+                    "user": "S-1-5-18",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEMAPPS\\MICROSOFT.MICROSOFTEDGE_*\\MICROSOFTEDGE.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEMAPPS\\MICROSOFT.MICROSOFTEDGE_*\\MICROSOFTEDGECP.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEMAPPS\\MICROSOFT.WINDOWS.CORTANA_*\\SEARCHUI.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEMAPPS\\SHELLEXPERIENCEHOST_*\\SHELLEXPERIENCEHOST.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\USERS\\*\\APPDATA\\LOCAL\\MICROSOFT\\ONEDRIVE\\ONEDRIVE.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\USERS\\*\\APPDATA\\LOCAL\\TEMP\\*\\DISMHOST.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\PROGRAM FILES\\WINDOWS DEFENDER\\MPCMDRUN.EXE",
+                    "event": "E",
+                    "user": "S-1-5-18",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\PROGRAM FILES\\WINDOWS DEFENDER\\MSMPENG.EXE",
+                    "event": "E",
+                    "user": "S-1-5-18",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\PROGRAM FILES\\WINDOWS DEFENDER\\NISSRV.EXE",
+                    "event": "E",
+                    "user": "S-1-5-19",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\PROGRAM FILES\\INTERNET EXPLORER\\IEXPLORE.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\PROGRAM FILES\\INTERNET EXPLORER\\IEUSER.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\PROGRAM FILES\\GOOGLE\\CHROME\\APPLICATION\\CHROME.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\PROGRAM FILES\\GOOGLE\\UPDATE\\GOOGLEUPDATE.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\PROGRAM FILES\\MOZILLA FIREFOX\\FIREFOX.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\PROGRAM FILES\\MOZILLA FIREFOX\\PLUGIN-CONTAINER.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\PROGRAM FILES\\WINDOWS MEDIA PLAYER\\WMPLAYER.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\PROGRAM FILES\\ADOBE\\*\\*.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "C:\\PROGRAM FILES*"
+                },
+                {
+                    "path": "*",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "C:\\WINDOWS\\SYSTEM32\\SVCHOST.EXE"
+                },
+                {
+                    "path": "*",
+                    "event": "E",
+                    "user": "*",
+                    "action": "B",
+                    "ppath": "*"
+                },
+                {
+                    "path": "*",
+                    "event": "C",
+                    "user": "*",
+                    "action": "B",
+                    "ppath": "*"
+                },
+                {
+                    "path": "*",
+                    "event": "a",
+                    "user": "*",
+                    "action": "B",
+                    "ppath": "*"
+                },
+                {
+                    "path": "*",
+                    "event": "A",
+                    "user": "*",
+                    "action": "B",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\PROGRAM FILES\\MICROSOFT OFFICE\\OFFICE*\\WINWORD.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "C:\\PROGRAM FILES*"
+                },
+                {
+                    "path": "C:\\PROGRAM FILES\\MICROSOFT OFFICE\\OFFICE*\\EXCEL.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "C:\\PROGRAM FILES*"
+                },
+                {
+                    "path": "C:\\PROGRAM FILES\\MICROSOFT OFFICE\\OFFICE*\\POWERPNT.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "C:\\PROGRAM FILES*"
+                },
+                {
+                    "path": "C:\\PROGRAM FILES\\MICROSOFT OFFICE\\OFFICE*\\MSACCESS.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "C:\\PROGRAM FILES*"
+                },
+                {
+                    "path": "C:\\PROGRAM FILES\\MICROSOFT OFFICE\\OFFICE*\\MSPUB.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "C:\\PROGRAM FILES*"
+                },
+                {
+                    "path": "C:\\PROGRAM FILES\\MICROSOFT OFFICE\\OFFICE*\\SETUP.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\PROGRAM FILES\\JAVA\\JRE*\\BIN\\JP2LAUNCHER.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\PROGRAM FILES\\JAVA\\JRE*\\BIN\\JAVA.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\PROGRAM FILES (X86)\\INTERNET EXPLORER\\IEXPLORE.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\PROGRAM FILES (X86)\\INTERNET EXPLORER\\IEUSER.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\PROGRAM FILES (X86)\\GOOGLE\\CHROME\\APPLICATION\\CHROME.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\PROGRAM FILES (X86)\\GOOGLE\\UPDATE\\GOOGLEUPDATE.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\PROGRAM FILES (X86)\\MOZILLA FIREFOX\\FIREFOX.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\PROGRAM FILES (X86)\\MOZILLA FIREFOX\\PLUGIN-CONTAINER.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\PROGRAM FILES (X86)\\WINDOWS MEDIA PLAYER\\WMPLAYER.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\PROGRAM FILES (X86)\\ADOBE\\*\\*.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "C:\\PROGRAM FILES*"
+                },
+                {
+                    "path": "C:\\PROGRAM FILES (X86)\\MICROSOFT OFFICE\\OFFICE*\\WINWORD.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "C:\\PROGRAM FILES*"
+                },
+                {
+                    "path": "C:\\PROGRAM FILES (X86)\\MICROSOFT OFFICE\\OFFICE*\\EXCEL.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "C:\\PROGRAM FILES*"
+                },
+                {
+                    "path": "C:\\PROGRAM FILES (X86)\\MICROSOFT OFFICE\\OFFICE*\\POWERPNT.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "C:\\PROGRAM FILES*"
+                },
+                {
+                    "path": "C:\\PROGRAM FILES (X86)\\MICROSOFT OFFICE\\OFFICE*\\MSACCESS.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "C:\\PROGRAM FILES*"
+                },
+                {
+                    "path": "C:\\PROGRAM FILES (X86)\\MICROSOFT OFFICE\\OFFICE*\\MSPUB.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "C:\\PROGRAM FILES*"
+                },
+                {
+                    "path": "C:\\PROGRAM FILES (X86)\\MICROSOFT OFFICE\\OFFICE*\\SETUP.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\PROGRAM FILES (X86)\\JAVA\\JRE*\\BIN\\JP2LAUNCHER.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\PROGRAM FILES (X86)\\JAVA\\JRE*\\BIN\\JAVA.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYS*\\MACROMED\\FLASH\\FLASHPLAYERPLUGIN_*.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\PROGRAM FILES\\K7 Computing\\*",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\PROGRAM FILES (X86)\\K7 Computing\\*",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\VBOXSERVICE.EXE",
+                    "event": "E",
+                    "user": "S-1-5-18",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\VBOXTRAY.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\PROGRAM FILES\\VMWARE\\VMWARE TOOLS\\VMWARETRAY.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\PROGRAM FILES\\VMWARE\\VMWARE TOOLS\\VMWAREUSER.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\PROGRAM FILES\\VMWARE\\VMWARE TOOLS\\VMTOOLSD.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\PROGRAM FILES\\VMWARE\\VMWARE TOOLS\\VMUPGRADEHELPER.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\PROGRAM FILES (X86\\VMWARE\\VMWARE TOOLS\\VMWARETRAY.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\PROGRAM FILES (X86\\VMWARE\\VMWARE TOOLS\\VMWAREUSER.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\PROGRAM FILES (X86\\VMWARE\\VMWARE TOOLS\\VMTOOLSD.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\PROGRAM FILES (X86\\VMWARE\\VMWARE TOOLS\\VMUPGRADEHELPER.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\TEMP\\*",
+                    "event": "C",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\DOCUME*\\TEMP\\*",
+                    "event": "C",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\Users\\*\\TEMP\\*",
+                    "event": "C",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\WINSXS\\TEMP\\*",
+                    "event": "C",
+                    "user": "S-1-5-18",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\WINDOWS\\TEMP\\*\\SETUP.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\DOCUME*\\TEMP\\*\\SETUP.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\Users\\*\\TEMP\\*\\SETUP.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\PROGRAM FILES\\GUM*.TMP\\GOOGLEUPDATE.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\PROGRAM FILES (X86)\\GUM*.TMP\\GOOGLEUPDATE.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\PROGRAM FILES\\GOOGLE\\UPDATE\\INSTALL\\*\\CHROME_INSTALLER.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\PROGRAM FILES (X86)\\GOOGLE\\UPDATE\\INSTALL\\*\\CHROME_INSTALLER.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\PROGRAM FILES\\MOZILLA FIREFOX\\MAINTENANCESERVICE_INSTALLER.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\PROGRAM FILES (X86)\\MOZILLA FIREFOX\\MAINTENANCESERVICE_INSTALLER.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\PROGRAM FILES\\MOZILLA MAINTENANCE SERVICE\\MAINTENANCESERVICE_TMP.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\PROGRAM FILES\\MOZILLA MAINTENANCE SERVICE\\MAINTENANCESERVICE_TMP.EXE",
+                    "event": "E",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\PROGRAM FILES*",
+                    "event": "C",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\PROGRAM FILES*",
+                    "event": "C",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                },
+                {
+                    "path": "C:\\K7SandboxScratchData\\*",
+                    "event": "C",
+                    "user": "*",
+                    "action": "A",
+                    "ppath": "*"
+                }
+            ]
+        },
+        "fwappctrl": {
+            "$ovron$": 0,
+            "apps": [
+                {
+                    "path": "C:\\WINDOWS\\SYSTEM32\\SVCHOST.EXE",
+                    "rules": [
+                        {
+                            "ruleno": 0,
+                            "name": "AllowPort53",
+                            "action": 1,
+                            "alert": 0,
+                            "log": 0,
+                            "direction": 2,
+                            "prottype": 2,
+                            "protval": 0,
+                            "lpt": 1,
+                            "lport1": 0,
+                            "lport2": 0,
+                            "rpt": 2,
+                            "rport1": 53,
+                            "rport2": 0,
+                            "lipt": 1,
+                            "lip1": "",
+                            "lip2": "",
+                            "ript": 1,
+                            "rip1": "",
+                            "rip2": "",
+                            "idx": 0
+                        },
+                        {
+                            "ruleno": 0,
+                            "name": "AllowPort67",
+                            "action": 1,
+                            "alert": 0,
+                            "log": 0,
+                            "direction": 2,
+                            "prottype": 2,
+                            "protval": 0,
+                            "lpt": 1,
+                            "lport1": 0,
+                            "lport2": 0,
+                            "rpt": 2,
+                            "rport1": 67,
+                            "rport2": 0,
+                            "lipt": 1,
+                            "lip1": "",
+                            "lip2": "",
+                            "ript": 1,
+                            "rip1": "",
+                            "rip2": "",
+                            "idx": 0
+                        },
+                        {
+                            "ruleno": 0,
+                            "name": "BlockEverything",
+                            "action": 0,
+                            "alert": 0,
+                            "log": 0,
+                            "direction": 2,
+                            "prottype": 3,
+                            "protval": 0,
+                            "lpt": 1,
+                            "lport1": 0,
+                            "lport2": 0,
+                            "rpt": 3,
+                            "rport1": 1,
+                            "rport2": 65535,
+                            "lipt": 1,
+                            "lip1": "",
+                            "lip2": "",
+                            "ript": 1,
+                            "rip1": "",
+                            "rip2": "",
+                            "idx": 0
+                        }
+                    ]
+                },
+                {
+                    "path": "C:\\PROGRAM FILES\\GOOGLE\\CHROME\\APPLICATION\\CHROME.EXE",
+                    "rules": [
+                        {
+                            "ruleno": 1,
+                            "name": "AllowPort80",
+                            "action": 1,
+                            "alert": 0,
+                            "log": 0,
+                            "direction": 2,
+                            "prottype": 3,
+                            "protval": 0,
+                            "lpt": 1,
+                            "lport1": 0,
+                            "lport2": 0,
+                            "rpt": 2,
+                            "rport1": 80,
+                            "rport2": 0,
+                            "lipt": 1,
+                            "lip1": "",
+                            "lip2": "",
+                            "ript": 1,
+                            "rip1": "",
+                            "rip2": "",
+                            "idx": 1
+                        },
+                        {
+                            "ruleno": 1,
+                            "name": "AllowPort53",
+                            "action": 1,
+                            "alert": 0,
+                            "log": 0,
+                            "direction": 2,
+                            "prottype": 2,
+                            "protval": 0,
+                            "lpt": 1,
+                            "lport1": 0,
+                            "lport2": 0,
+                            "rpt": 2,
+                            "rport1": 53,
+                            "rport2": 0,
+                            "lipt": 1,
+                            "lip1": "",
+                            "lip2": "",
+                            "ript": 1,
+                            "rip1": "",
+                            "rip2": "",
+                            "idx": 1
+                        },
+                        {
+                            "ruleno": 1,
+                            "name": "AllowPort443",
+                            "action": 1,
+                            "alert": 0,
+                            "log": 0,
+                            "direction": 2,
+                            "prottype": 3,
+                            "protval": 0,
+                            "lpt": 1,
+                            "lport1": 0,
+                            "lport2": 0,
+                            "rpt": 2,
+                            "rport1": 443,
+                            "rport2": 0,
+                            "lipt": 1,
+                            "lip1": "",
+                            "lip2": "",
+                            "ript": 1,
+                            "rip1": "",
+                            "rip2": "",
+                            "idx": 1
+                        },
+                        {
+                            "ruleno": 1,
+                            "name": "AllowProxy",
+                            "action": 1,
+                            "alert": 0,
+                            "log": 0,
+                            "direction": 2,
+                            "prottype": 3,
+                            "protval": 0,
+                            "lpt": 1,
+                            "lport1": 0,
+                            "lport2": 0,
+                            "rpt": 2,
+                            "rport1": 3128,
+                            "rport2": 0,
+                            "lipt": 1,
+                            "lip1": "",
+                            "lip2": "",
+                            "ript": 1,
+                            "rip1": "",
+                            "rip2": "",
+                            "idx": 1
+                        },
+                        {
+                            "ruleno": 1,
+                            "name": "BlockEverything",
+                            "action": 0,
+                            "alert": 0,
+                            "log": 0,
+                            "direction": 2,
+                            "prottype": 3,
+                            "protval": 0,
+                            "lpt": 1,
+                            "lport1": 0,
+                            "lport2": 0,
+                            "rpt": 3,
+                            "rport1": 1,
+                            "rport2": 65535,
+                            "lipt": 1,
+                            "lip1": "",
+                            "lip2": "",
+                            "ript": 1,
+                            "rip1": "",
+                            "rip2": "",
+                            "idx": 1
+                        }
+                    ]
+                },
+                {
+                    "path": "C:\\PROGRAM FILES\\MOZILLA FIREFOX\\FIREFOX.EXE",
+                    "rules": [
+                        {
+                            "ruleno": 2,
+                            "name": "AllowPort80",
+                            "action": 1,
+                            "alert": 0,
+                            "log": 0,
+                            "direction": 2,
+                            "prottype": 3,
+                            "protval": 0,
+                            "lpt": 1,
+                            "lport1": 0,
+                            "lport2": 0,
+                            "rpt": 2,
+                            "rport1": 80,
+                            "rport2": 0,
+                            "lipt": 1,
+                            "lip1": "",
+                            "lip2": "",
+                            "ript": 1,
+                            "rip1": "",
+                            "rip2": "",
+                            "idx": 2
+                        },
+                        {
+                            "ruleno": 2,
+                            "name": "AllowPort443",
+                            "action": 1,
+                            "alert": 0,
+                            "log": 0,
+                            "direction": 2,
+                            "prottype": 3,
+                            "protval": 0,
+                            "lpt": 1,
+                            "lport1": 0,
+                            "lport2": 0,
+                            "rpt": 2,
+                            "rport1": 443,
+                            "rport2": 0,
+                            "lipt": 1,
+                            "lip1": "",
+                            "lip2": "",
+                            "ript": 1,
+                            "rip1": "",
+                            "rip2": "",
+                            "idx": 2
+                        },
+                        {
+                            "ruleno": 2,
+                            "name": "AllowPort53",
+                            "action": 1,
+                            "alert": 0,
+                            "log": 0,
+                            "direction": 2,
+                            "prottype": 2,
+                            "protval": 0,
+                            "lpt": 1,
+                            "lport1": 0,
+                            "lport2": 0,
+                            "rpt": 2,
+                            "rport1": 53,
+                            "rport2": 0,
+                            "lipt": 1,
+                            "lip1": "",
+                            "lip2": "",
+                            "ript": 1,
+                            "rip1": "",
+                            "rip2": "",
+                            "idx": 2
+                        },
+                        {
+                            "ruleno": 2,
+                            "name": "AllowProxy",
+                            "action": 1,
+                            "alert": 0,
+                            "log": 0,
+                            "direction": 2,
+                            "prottype": 3,
+                            "protval": 0,
+                            "lpt": 1,
+                            "lport1": 0,
+                            "lport2": 0,
+                            "rpt": 2,
+                            "rport1": 3128,
+                            "rport2": 0,
+                            "lipt": 1,
+                            "lip1": "",
+                            "lip2": "",
+                            "ript": 1,
+                            "rip1": "",
+                            "rip2": "",
+                            "idx": 2
+                        },
+                        {
+                            "ruleno": 2,
+                            "name": "BlockEverything",
+                            "action": 0,
+                            "alert": 0,
+                            "log": 0,
+                            "direction": 2,
+                            "prottype": 3,
+                            "protval": 0,
+                            "lpt": 1,
+                            "lport1": 0,
+                            "lport2": 0,
+                            "rpt": 3,
+                            "rport1": 1,
+                            "rport2": 65535,
+                            "lipt": 1,
+                            "lip1": "",
+                            "lip2": "",
+                            "ript": 1,
+                            "rip1": "",
+                            "rip2": "",
+                            "idx": 2
+                        }
+                    ]
+                },
+                {
+                    "path": "C:\\PROGRAM FILES\\MOZILLA FIREFOX\\PLUGIN-CONTAINER.EXE",
+                    "rules": [
+                        {
+                            "ruleno": 3,
+                            "name": "AllowPort80",
+                            "action": 1,
+                            "alert": 0,
+                            "log": 0,
+                            "direction": 2,
+                            "prottype": 3,
+                            "protval": 0,
+                            "lpt": 1,
+                            "lport1": 0,
+                            "lport2": 0,
+                            "rpt": 2,
+                            "rport1": 80,
+                            "rport2": 0,
+                            "lipt": 1,
+                            "lip1": "",
+                            "lip2": "",
+                            "ript": 1,
+                            "rip1": "",
+                            "rip2": "",
+                            "idx": 3
+                        },
+                        {
+                            "ruleno": 3,
+                            "name": "AllowPort443",
+                            "action": 1,
+                            "alert": 0,
+                            "log": 0,
+                            "direction": 2,
+                            "prottype": 3,
+                            "protval": 0,
+                            "lpt": 1,
+                            "lport1": 0,
+                            "lport2": 0,
+                            "rpt": 2,
+                            "rport1": 443,
+                            "rport2": 0,
+                            "lipt": 1,
+                            "lip1": "",
+                            "lip2": "",
+                            "ript": 1,
+                            "rip1": "",
+                            "rip2": "",
+                            "idx": 3
+                        },
+                        {
+                            "ruleno": 3,
+                            "name": "AllowPort53",
+                            "action": 1,
+                            "alert": 0,
+                            "log": 0,
+                            "direction": 2,
+                            "prottype": 2,
+                            "protval": 0,
+                            "lpt": 1,
+                            "lport1": 0,
+                            "lport2": 0,
+                            "rpt": 2,
+                            "rport1": 53,
+                            "rport2": 0,
+                            "lipt": 1,
+                            "lip1": "",
+                            "lip2": "",
+                            "ript": 1,
+                            "rip1": "",
+                            "rip2": "",
+                            "idx": 3
+                        },
+                        {
+                            "ruleno": 3,
+                            "name": "AllowProxy",
+                            "action": 1,
+                            "alert": 0,
+                            "log": 0,
+                            "direction": 2,
+                            "prottype": 3,
+                            "protval": 0,
+                            "lpt": 1,
+                            "lport1": 0,
+                            "lport2": 0,
+                            "rpt": 2,
+                            "rport1": 3128,
+                            "rport2": 0,
+                            "lipt": 1,
+                            "lip1": "",
+                            "lip2": "",
+                            "ript": 1,
+                            "rip1": "",
+                            "rip2": "",
+                            "idx": 3
+                        },
+                        {
+                            "ruleno": 3,
+                            "name": "BlockEverything",
+                            "action": 0,
+                            "alert": 0,
+                            "log": 0,
+                            "direction": 2,
+                            "prottype": 3,
+                            "protval": 0,
+                            "lpt": 1,
+                            "lport1": 0,
+                            "lport2": 0,
+                            "rpt": 3,
+                            "rport1": 1,
+                            "rport2": 65535,
+                            "lipt": 1,
+                            "lip1": "",
+                            "lip2": "",
+                            "ript": 1,
+                            "rip1": "",
+                            "rip2": "",
+                            "idx": 3
+                        }
+                    ]
+                },
+                {
+                    "path": "C:\\PROGRAM FILES (X86)\\GOOGLE\\CHROME\\APPLICATION\\CHROME.EXE",
+                    "rules": [
+                        {
+                            "ruleno": 4,
+                            "name": "ASG Rule",
+                            "action": 0,
+                            "alert": 0,
+                            "log": 0,
+                            "direction": 2,
+                            "prottype": 1,
+                            "protval": 0,
+                            "lpt": 2,
+                            "lport1": 21,
+                            "lport2": 0,
+                            "rpt": 2,
+                            "rport1": 21,
+                            "rport2": 0,
+                            "lipt": 1,
+                            "lip1": "",
+                            "lip2": "",
+                            "ript": 1,
+                            "rip1": "",
+                            "rip2": "",
+                            "idx": 4
+                        },
+                        {
+                            "ruleno": 4,
+                            "name": "ASG-2",
+                            "action": 0,
+                            "alert": 0,
+                            "log": 0,
+                            "direction": 2,
+                            "prottype": 1,
+                            "protval": 0,
+                            "lpt": 2,
+                            "lport1": 8080,
+                            "lport2": 0,
+                            "rpt": 1,
+                            "rport1": 0,
+                            "rport2": 0,
+                            "lipt": 1,
+                            "lip1": "",
+                            "lip2": "",
+                            "ript": 1,
+                            "rip1": "",
+                            "rip2": "",
+                            "idx": 4
+                        },
+                        {
+                            "ruleno": 4,
+                            "name": "ASG-rule",
+                            "action": 1,
+                            "alert": 0,
+                            "log": 0,
+                            "direction": 2,
+                            "prottype": 3,
+                            "protval": 0,
+                            "lpt": 1,
+                            "lport1": 0,
+                            "lport2": 0,
+                            "rpt": 1,
+                            "rport1": 0,
+                            "rport2": 0,
+                            "lipt": 1,
+                            "lip1": "",
+                            "lip2": "",
+                            "ript": 1,
+                            "rip1": "",
+                            "rip2": "",
+                            "idx": 4
+                        }
+                    ]
+                },
+                {
+                    "path": "C\\PROGRAM FILES (X86)\\INTERNET EXPLORER\\IEXPLORE.EXE",
+                    "rules": [
+                        {
+                            "ruleno": 5,
+                            "name": "AllowPort80",
+                            "action": 1,
+                            "alert": 0,
+                            "log": 0,
+                            "direction": 2,
+                            "prottype": 3,
+                            "protval": 0,
+                            "lpt": 1,
+                            "lport1": 0,
+                            "lport2": 0,
+                            "rpt": 2,
+                            "rport1": 80,
+                            "rport2": 0,
+                            "lipt": 1,
+                            "lip1": "",
+                            "lip2": "",
+                            "ript": 1,
+                            "rip1": "",
+                            "rip2": "",
+                            "idx": 5
+                        },
+                        {
+                            "ruleno": 5,
+                            "name": "AllowPort53",
+                            "action": 1,
+                            "alert": 0,
+                            "log": 0,
+                            "direction": 2,
+                            "prottype": 2,
+                            "protval": 0,
+                            "lpt": 1,
+                            "lport1": 0,
+                            "lport2": 0,
+                            "rpt": 2,
+                            "rport1": 53,
+                            "rport2": 0,
+                            "lipt": 1,
+                            "lip1": "",
+                            "lip2": "",
+                            "ript": 1,
+                            "rip1": "",
+                            "rip2": "",
+                            "idx": 5
+                        },
+                        {
+                            "ruleno": 5,
+                            "name": "AllowPort443",
+                            "action": 1,
+                            "alert": 0,
+                            "log": 0,
+                            "direction": 2,
+                            "prottype": 3,
+                            "protval": 0,
+                            "lpt": 1,
+                            "lport1": 0,
+                            "lport2": 0,
+                            "rpt": 2,
+                            "rport1": 443,
+                            "rport2": 0,
+                            "lipt": 1,
+                            "lip1": "",
+                            "lip2": "",
+                            "ript": 1,
+                            "rip1": "",
+                            "rip2": "",
+                            "idx": 5
+                        },
+                        {
+                            "ruleno": 5,
+                            "name": "AllowProxy",
+                            "action": 1,
+                            "alert": 0,
+                            "log": 0,
+                            "direction": 2,
+                            "prottype": 3,
+                            "protval": 0,
+                            "lpt": 1,
+                            "lport1": 0,
+                            "lport2": 0,
+                            "rpt": 2,
+                            "rport1": 3128,
+                            "rport2": 0,
+                            "lipt": 1,
+                            "lip1": "",
+                            "lip2": "",
+                            "ript": 1,
+                            "rip1": "",
+                            "rip2": "",
+                            "idx": 5
+                        },
+                        {
+                            "ruleno": 5,
+                            "name": "BlockEverything",
+                            "action": 0,
+                            "alert": 0,
+                            "log": 0,
+                            "direction": 2,
+                            "prottype": 3,
+                            "protval": 0,
+                            "lpt": 1,
+                            "lport1": 0,
+                            "lport2": 0,
+                            "rpt": 3,
+                            "rport1": 1,
+                            "rport2": 65535,
+                            "lipt": 1,
+                            "lip1": "",
+                            "lip2": "",
+                            "ript": 1,
+                            "rip1": "",
+                            "rip2": "",
+                            "idx": 5
+                        }
+                    ]
+                },
+                {
+                    "path": "C:\\PROGRAM FILES\\JAVA\\JRE1.8.0_73\\BIN\\JAVAWS.EXE",
+                    "rules": [
+                        {
+                            "ruleno": 6,
+                            "name": "AllowPort80",
+                            "action": 1,
+                            "alert": 0,
+                            "log": 0,
+                            "direction": 2,
+                            "prottype": 3,
+                            "protval": 0,
+                            "lpt": 1,
+                            "lport1": 0,
+                            "lport2": 0,
+                            "rpt": 2,
+                            "rport1": 80,
+                            "rport2": 0,
+                            "lipt": 1,
+                            "lip1": "",
+                            "lip2": "",
+                            "ript": 1,
+                            "rip1": "",
+                            "rip2": "",
+                            "idx": 6
+                        },
+                        {
+                            "ruleno": 6,
+                            "name": "AllowPort53",
+                            "action": 1,
+                            "alert": 0,
+                            "log": 0,
+                            "direction": 2,
+                            "prottype": 2,
+                            "protval": 0,
+                            "lpt": 1,
+                            "lport1": 0,
+                            "lport2": 0,
+                            "rpt": 2,
+                            "rport1": 53,
+                            "rport2": 0,
+                            "lipt": 1,
+                            "lip1": "",
+                            "lip2": "",
+                            "ript": 1,
+                            "rip1": "",
+                            "rip2": "",
+                            "idx": 6
+                        },
+                        {
+                            "ruleno": 6,
+                            "name": "AllowPort443",
+                            "action": 1,
+                            "alert": 0,
+                            "log": 0,
+                            "direction": 2,
+                            "prottype": 3,
+                            "protval": 0,
+                            "lpt": 1,
+                            "lport1": 0,
+                            "lport2": 0,
+                            "rpt": 2,
+                            "rport1": 443,
+                            "rport2": 0,
+                            "lipt": 1,
+                            "lip1": "",
+                            "lip2": "",
+                            "ript": 1,
+                            "rip1": "",
+                            "rip2": "",
+                            "idx": 6
+                        },
+                        {
+                            "ruleno": 6,
+                            "name": "AllowProxy",
+                            "action": 1,
+                            "alert": 0,
+                            "log": 0,
+                            "direction": 2,
+                            "prottype": 3,
+                            "protval": 0,
+                            "lpt": 1,
+                            "lport1": 0,
+                            "lport2": 0,
+                            "rpt": 2,
+                            "rport1": 3128,
+                            "rport2": 0,
+                            "lipt": 1,
+                            "lip1": "",
+                            "lip2": "",
+                            "ript": 1,
+                            "rip1": "",
+                            "rip2": "",
+                            "idx": 6
+                        },
+                        {
+                            "ruleno": 6,
+                            "name": "BlockEverything",
+                            "action": 0,
+                            "alert": 0,
+                            "log": 0,
+                            "direction": 2,
+                            "prottype": 3,
+                            "protval": 0,
+                            "lpt": 1,
+                            "lport1": 0,
+                            "lport2": 0,
+                            "rpt": 3,
+                            "rport1": 1,
+                            "rport2": 65535,
+                            "lipt": 1,
+                            "lip1": "",
+                            "lip2": "",
+                            "ript": 1,
+                            "rip1": "",
+                            "rip2": "",
+                            "idx": 6
+                        }
+                    ]
+                },
+                {
+                    "path": "C:\\PROGRAM FILES\\JAVA\\JRE1.8.0_73\\BIN\\JP2LAUNCHER.EXE",
+                    "rules": [
+                        {
+                            "ruleno": 7,
+                            "name": "AllowPort80",
+                            "action": 1,
+                            "alert": 0,
+                            "log": 0,
+                            "direction": 2,
+                            "prottype": 3,
+                            "protval": 0,
+                            "lpt": 1,
+                            "lport1": 0,
+                            "lport2": 0,
+                            "rpt": 2,
+                            "rport1": 80,
+                            "rport2": 0,
+                            "lipt": 1,
+                            "lip1": "",
+                            "lip2": "",
+                            "ript": 1,
+                            "rip1": "",
+                            "rip2": "",
+                            "idx": 7
+                        },
+                        {
+                            "ruleno": 7,
+                            "name": "AllowPort53",
+                            "action": 1,
+                            "alert": 0,
+                            "log": 0,
+                            "direction": 2,
+                            "prottype": 2,
+                            "protval": 0,
+                            "lpt": 1,
+                            "lport1": 0,
+                            "lport2": 0,
+                            "rpt": 2,
+                            "rport1": 53,
+                            "rport2": 0,
+                            "lipt": 1,
+                            "lip1": "",
+                            "lip2": "",
+                            "ript": 1,
+                            "rip1": "",
+                            "rip2": "",
+                            "idx": 7
+                        },
+                        {
+                            "ruleno": 7,
+                            "name": "AllowPort443",
+                            "action": 1,
+                            "alert": 0,
+                            "log": 0,
+                            "direction": 2,
+                            "prottype": 3,
+                            "protval": 0,
+                            "lpt": 1,
+                            "lport1": 0,
+                            "lport2": 0,
+                            "rpt": 2,
+                            "rport1": 443,
+                            "rport2": 0,
+                            "lipt": 1,
+                            "lip1": "",
+                            "lip2": "",
+                            "ript": 1,
+                            "rip1": "",
+                            "rip2": "",
+                            "idx": 7
+                        },
+                        {
+                            "ruleno": 7,
+                            "name": "AllowProxy",
+                            "action": 1,
+                            "alert": 0,
+                            "log": 0,
+                            "direction": 2,
+                            "prottype": 3,
+                            "protval": 0,
+                            "lpt": 1,
+                            "lport1": 0,
+                            "lport2": 0,
+                            "rpt": 2,
+                            "rport1": 3128,
+                            "rport2": 0,
+                            "lipt": 1,
+                            "lip1": "",
+                            "lip2": "",
+                            "ript": 1,
+                            "rip1": "",
+                            "rip2": "",
+                            "idx": 7
+                        },
+                        {
+                            "ruleno": 7,
+                            "name": "BlockEverything",
+                            "action": 0,
+                            "alert": 0,
+                            "log": 0,
+                            "direction": 2,
+                            "prottype": 3,
+                            "protval": 0,
+                            "lpt": 1,
+                            "lport1": 0,
+                            "lport2": 0,
+                            "rpt": 3,
+                            "rport1": 1,
+                            "rport2": 65535,
+                            "lipt": 1,
+                            "lip1": "",
+                            "lip2": "",
+                            "ript": 1,
+                            "rip1": "",
+                            "rip2": "",
+                            "idx": 7
+                        }
+                    ]
+                }
+            ]
+        },
+        "sandbox": {
+            "$ovron$": 0,
+            "process": [
+                {
+                    "name": "iexplore.exe"
+                },
+                {
+                    "name": "firefox.exe"
+                },
+                {
+                    "name": "chrome.exe"
+                },
+                {
+                    "name": "winword.exe"
+                },
+                {
+                    "name": "excel.exe"
+                },
+                {
+                    "name": "powerpnt.exe"
+                },
+                {
+                    "name": "java.exe"
+                },
+                {
+                    "name": "jp2launcher.exe"
+                },
+                {
+                    "name": "acrord32.exe"
+                },
+                {
+                    "name": "adobearm.exe"
+                },
+                {
+                    "name": "acrobroker.exe"
+                },
+                {
+                    "name": "wow_helper.exe"
+                },
+                {
+                    "name": "eula.exe"
+                },
+                {
+                    "name": "taskhostw.exe"
+                },
+                {
+                    "name": "plugin-container.exe"
+                }
+            ]
+        },
+        "override": {
+            "execctrl": {
+                "$ovron$": 1,
+                "rules": [
+                    {
+                        "path": "C:\\Program Files (x86)\\Microsoft Visual Studio 9.0\\Common7\\IDE\\MakeZipExe.exe",
+                        "event": "E",
+                        "user": "*",
+                        "action": "A",
+                        "ppath": "*"
+                    },
+                    {
+                        "path": "C:\\Program Files (x86)\\Microsoft Visual Studio 9.0\\Common7\\IDE\\vb7to8.exe",
+                        "event": "E",
+                        "user": "n",
+                        "action": "B",
+                        "ppath": "*"
+                    },
+                    {
+                        "path": "C:\\Program Files\\DVD Maker\\DVDMaker.exe",
+                        "event": "E",
+                        "user": "S-1-5-18",
+                        "action": "A",
+                        "ppath": "*"
+                    }
+                ]
+            },
+            "fwappctrl": {
+                "$ovron$": 1,
+                "apps": [
+                    {
+                        "path": "C:\\Program Files (x86)\\Microsoft Visual Studio 9.0\\Common7\\IDE\\MakeZipExe.exe",
+                        "rules": [
+                            {
+                                "ruleno": 0,
+                                "name": "Rule-1",
+                                "action": 1,
+                                "alert": 0,
+                                "log": 0,
+                                "direction": 2,
+                                "prottype": 3,
+                                "protval": 0,
+                                "lpt": 2,
+                                "lport1": 140,
+                                "lport2": 0,
+                                "rpt": 2,
+                                "rport1": 44,
+                                "rport2": 0,
+                                "lipt": 1,
+                                "lip1": "",
+                                "lip2": "",
+                                "ript": 1,
+                                "rip1": "",
+                                "rip2": "",
+                                "idx": 0
+                            }
+                        ]
+                    },
+                    {
+                        "path": "C:\\Program Files (x86)\\Microsoft Visual Studio 9.0\\Common7\\IDE\\vb7to8.exe",
+                        "rules": [
+                            {
+                                "ruleno": 1,
+                                "name": "fw rule",
+                                "action": 1,
+                                "alert": 0,
+                                "log": 0,
+                                "direction": 1,
+                                "prottype": 1,
+                                "protval": 0,
+                                "lpt": 2,
+                                "lport1": 48,
+                                "lport2": 0,
+                                "rpt": 2,
+                                "rport1": 480,
+                                "rport2": 0,
+                                "lipt": 1,
+                                "lip1": "",
+                                "lip2": "",
+                                "ript": 1,
+                                "rip1": "",
+                                "rip2": "",
+                                "idx": 1
+                            }
+                        ]
+                    }
+                ]
+            },
+            "sandbox": {
+                "$ovron$": 1,
+                "process": []
+            },
+            "devicectrl": {
+                "$ovron$": 1,
+                "on": 1,
+                "ntfyonly": 0,
+                "msg": "",
+                "hwblock": [],
+                "hwallow": [
+                    {
+                        "type": 2,
+                        "name": "Allow BSUBKSDBFksdbfjkdbkjsdbfsdjfbsdbfkdsbghsdbgkfbkgbdfkgbdfjgfdl\\\\\\234328746292323",
+                        "label": "ABC"
+                    }
+                ]
+            }
+        }
+    }
+}

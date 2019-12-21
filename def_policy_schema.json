@@ -1,0 +1,236 @@
+{
+	"type": "object",
+	"properties": {
+		"policy": {
+			"type": "object",
+			"properties": {
+				"header": {
+					"type": "object",
+					"properties": {
+						"force": {
+							"type": "number"
+						}
+					}
+				},
+				"scanner": {
+					"type": "object",
+					"properties": {
+						"updtcmdarg": {
+							"type": "string"
+						}
+					}
+				},
+				"gnrl": {
+					"type": "object",
+					"properties": {
+						"notifyusr": {
+							"type": "number"
+						},
+						"alrtusr": {
+							"type": "number"
+						},
+						"showsystray": {
+							"type": "number"
+						},
+						"usercanuninstall": {
+							"type": "number"
+						}
+					}
+				},
+				"devicectrl": {
+					"type": "object",
+					"properties": {
+						"on": {
+							"type": "number"
+						},
+						"ntfyonly": {
+							"type": "number"
+						},
+						"msg": {
+							"type": "null"
+						},
+						"hwblock": {
+							"type": "array",
+							"items": {
+								"type": "object",
+								"properties": {
+									"type": {
+										"type": "number"
+									},
+									"name": {
+										"type": "string"
+									},
+									"label": {
+										"type": "string"
+									}
+								}
+							}
+						},
+						"hwallow": {
+							"type": "array",
+							"items": {
+								"type": "object",
+								"properties": {
+									"type": {
+										"type": "number"
+									},
+									"name": {
+										"type": "string"
+									},
+									"label": {
+										"type": "string"
+									}
+								}
+							}
+						}
+					}
+				},
+				"execctrl": {
+					"type": "object",
+					"properties": {
+						"execctrl": {
+							"type": "object",
+							"properties": {
+								"rules": {
+									"type": "array",
+									"items": {
+										"type": "object",
+										"properties": {
+											"path": {
+												"type": "string"
+											},
+											"event": {
+												"type": "string"
+											},
+											"user": {
+												"type": "string"
+											},
+											"action": {
+												"type": "string"
+											},
+											"ppath": {
+												"type": "string"
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				},
+				"fwappctrl": {
+					"type": "object",
+					"properties": {
+						"apps": {
+							"type": "array",
+							"items": {
+								"type": "object",
+								"properties": {
+									"path": {
+										"type": "string"
+									},
+									"rules": {
+										"type": "array",
+										"items": {
+											"type": "object",
+											"properties": {
+												"ruleno": {
+													"type": "number"
+												},
+												"name": {
+													"type": "string"
+												},
+												"action": {
+													"type": "number"
+												},
+												"alert": {
+													"type": "number"
+												},
+												"log": {
+													"type": "number"
+												},
+												"direction": {
+													"type": "number"
+												},
+												"prottype": {
+													"type": "number"
+												},
+												"protval": {
+													"type": "number"
+												},
+												"lpt": {
+													"type": "number"
+												},
+												"lport1": {
+													"type": "number"
+												},
+												"lport2": {
+													"type": "number"
+												},
+												"rpt": {
+													"type": "number"
+												},
+												"rport1": {
+													"type": "number"
+												},
+												"rport2": {
+													"type": "number"
+												},
+												"lipt": {
+													"type": "number"
+												},
+												"lip1": {
+													"type": "string"
+												},
+												"lip2": {
+													"type": "string"
+												},
+												"ript": {
+													"type": "number"
+												},
+												"rip1": {
+													"type": "string"
+												},
+												"rip2": {
+													"type": "string"
+												},
+												"idx": {
+													"type": "number"
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				},
+				"sandbox": {
+					"type": "object",
+					"properties": {
+						"process": {
+							"type": "array",
+							"items": {
+								"type": "object",
+								"properties": {
+									"name": {
+										"type": "string"
+									}
+								}
+							}
+						}
+					}
+				},
+				"override": {
+					"type": "object",
+					"properties": {
+						"execctrl": {},
+						"fwappctrl": {},
+						"sandbox": {},
+						"devicectrl": {}
+					}
+				}
+			}
+		}
+	}
+}
